@@ -5058,7 +5058,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 572092663}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OnStartButtonClicked
+        m_MethodName: OnStartButtonClickedCart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16785,7 +16785,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 572092663}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OnStartButtonClicked
+        m_MethodName: OnStartButtonClickedLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

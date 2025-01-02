@@ -18,15 +18,19 @@ public class MainMenu : MonoBehaviour
         //SceneManager.LoadScene(1);
 
         // Event-Listener hinzufügen
-        startButton.onClick.AddListener(OnStartButtonClicked);
+        startButton.onClick.AddListener(OnStartButtonClickedCart);
     }
 
-    public void OnStartButtonClicked()
+    public void OnStartButtonClickedLevel()
     {
         // Szene wechseln
-        SceneManager.LoadScene("Scene_Level"); // Ersetze "NextSceneName" mit dem tatsächlichen Szenennamen
+        SceneManager.LoadScene("Scene_Level"); 
+    }
 
-        SceneManager.LoadScene("Scene_Chart"); // Ersetze "NextSceneName" mit dem tatsächlichen Szenennamen
+    public void OnStartButtonClickedCart()
+    {
+        // Szene wechseln
+        SceneManager.LoadScene("Scene_Chart");
     }
 
     // Update is called once per frame
