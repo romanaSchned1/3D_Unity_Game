@@ -1,0 +1,386 @@
+Unity Editor version:    2023.2.19f1 (95c298372b1e)
+Branch:                  2023.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0.1 (Build 24A348)
+Darwin version:          24.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53480
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game
+/Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8365503040] Host "[IP] 192.168.1.30 [Port] 0 [Flags] 2 [Guid] 144899271 [EditorId] 144899271 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-von-Romana.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8365503040] Host "[IP] 192.168.1.30 [Port] 0 [Flags] 2 [Guid] 144899271 [EditorId] 144899271 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-von-Romana.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.19f1 (95c298372b1e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56163
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001854 seconds.
+- Loaded All Assemblies, in  0.357 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.267 seconds
+Domain Reload Profiling: 624ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (141ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (220ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.056 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1614ms
+	BeginReloadAssembly (631ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3300 unused Assets / (3.0 MB). Loaded Objects now: 3903.
+Memory consumption went from 120.1 MB to 117.1 MB.
+Total: 5.980041 ms (FindLiveObjects: 0.570750 ms CreateObjectMapping: 0.123125 ms MarkObjects: 4.160959 ms  DeleteObjects: 1.124875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106306.371047 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk.mat
+  artifactKey: Guid(b4f152e0498484391a9f0d5a1facf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk.mat using Guid(b4f152e0498484391a9f0d5a1facf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25cecb31f6aa6dde8069e09f98eb3db8') in 0.117269291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570892 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.mat
+  artifactKey: Guid(7416536dbe0334cfd888dd1beb75a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.mat using Guid(7416536dbe0334cfd888dd1beb75a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68697e0e61512723fa5cf0efca871b44') in 0.163454583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.813528 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat
+  artifactKey: Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat using Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e4cf48597916a3a39013fa16bbcc1e3') in 0.050522625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
+  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aef1707b2b909c6eef5d8758c36309c1') in 0.017111041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.736695 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.mat
+  artifactKey: Guid(f2b5f3f20933f434e850db1b710542fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.mat using Guid(f2b5f3f20933f434e850db1b710542fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43b795a5721fdfd7e6ea58457786d716') in 0.037825917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_0_Front+Z.png
+  artifactKey: Guid(402fe3aa91fba453f92dd3bbe820dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_0_Front+Z.png using Guid(402fe3aa91fba453f92dd3bbe820dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a871864633e85cfd78e99f6dc47d308') in 0.005965916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_5_Down-Y.png
+  artifactKey: Guid(4164b771c2b784c2da3cbe10847a182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_5_Down-Y.png using Guid(4164b771c2b784c2da3cbe10847a182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6cc17620018e621331caf5e8075bdb') in 0.005786125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.083927 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink.mat
+  artifactKey: Guid(8b7dd0809c7c6498789fa32a61eaa6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink.mat using Guid(8b7dd0809c7c6498789fa32a61eaa6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c79aa65c87846f2b77d9cf0e90b4c8') in 0.02449125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_4_Up+Y.png
+  artifactKey: Guid(c3e1d31cf8ef742ad8aed75a1fdaff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_4_Up+Y.png using Guid(c3e1d31cf8ef742ad8aed75a1fdaff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7339b208f08678235a8c3f7ffb015ba9') in 0.005910833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.674826 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.mat
+  artifactKey: Guid(51b74d7bad397457d883c5940f7664d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.mat using Guid(51b74d7bad397457d883c5940f7664d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f43d9adf69b7b6505f9cfdec4fc6be84') in 0.026866541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_3_Right-X.png
+  artifactKey: Guid(8e462a9bf0b1941148e4318e741d7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_3_Right-X.png using Guid(8e462a9bf0b1941148e4318e741d7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27f7e06b9682bc922cdf1f14dbda364d') in 0.005476833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_2_Left+X.png
+  artifactKey: Guid(c35d875303c454b9a8acaae0f7800313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_2_Left+X.png using Guid(c35d875303c454b9a8acaae0f7800313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e5a2420b6eaece64f5a72d66e76c32') in 0.004769958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_5_Down-Y.png
+  artifactKey: Guid(771300e956150427f8e4740c74cdd67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_5_Down-Y.png using Guid(771300e956150427f8e4740c74cdd67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2328ef762e00283d0a6e036a45594068') in 0.004742166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x32d887000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.492 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1026ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3298 unused Assets / (2.6 MB). Loaded Objects now: 3950.
+Memory consumption went from 119.4 MB to 116.8 MB.
+Total: 5.306584 ms (FindLiveObjects: 0.226625 ms CreateObjectMapping: 0.127209 ms MarkObjects: 4.025541 ms  DeleteObjects: 0.926834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ddb7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/romi/Documents/Schule/5 BHITM/MEDT/3D/Game/GitHub/3D_Unity_Game/3D_Game/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.506 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.547 seconds
+Domain Reload Profiling: 1054ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3298 unused Assets / (2.5 MB). Loaded Objects now: 3950.
+Memory consumption went from 120.9 MB to 118.4 MB.
+Total: 5.463000 ms (FindLiveObjects: 0.232042 ms CreateObjectMapping: 0.132333 ms MarkObjects: 4.368417 ms  DeleteObjects: 0.729875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
