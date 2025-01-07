@@ -66,7 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs" />
-    <Compile Include="Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/Scipts/InGame/Players.cs" />
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs" />
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs" />
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />
@@ -80,7 +79,6 @@
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs" />
     <Compile Include="Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/Scipts/InGame/CupController.cs" />
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs" />
-    <Compile Include="Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/Scipts/InGame/Cup.cs" />
     <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs" />
     <Compile Include="Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/Scipts/Chart/ShopManagerScript.cs" />
     <Compile Include="Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/Scipts/Startmenu/StartMenu.cs" />

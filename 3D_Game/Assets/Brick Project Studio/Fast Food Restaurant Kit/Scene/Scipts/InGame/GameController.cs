@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class GameController : MonoBehaviour
 {
     public CupController becherController;
@@ -20,7 +21,8 @@ public class GameController : MonoBehaviour
         becherController.SwapCups();
         
         // Optional: Deaktiviere das UI, falls Buttons eingeblendet werden
-        uiCanvas.SetActive(false);
+        //uiCanvas.SetActive(false);
+        
     }
 
     void Update()

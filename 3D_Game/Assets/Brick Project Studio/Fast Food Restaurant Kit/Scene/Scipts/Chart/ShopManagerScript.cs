@@ -76,7 +76,7 @@ public class ShopManagerScript : MonoBehaviour
         for (int i = 1; i <= 6; i++)  // Hier gehen wir durch alle Artikel
         {
             int purchased = PlayerPrefs.GetInt("ItemPurchased_" + i, 0);  // 0 bedeutet, dass der Artikel nicht gekauft wurde
-            shopItems[3, i] = purchased;  // Wenn gekauft, setzen wir die Menge auf 1
+            shopItems[3, 0] = purchased;  // Wenn gekauft, setzen wir die Menge auf 1
 
             // Falls der Artikel gekauft wurde, deaktiviere den Button
             if (purchased == 1)
