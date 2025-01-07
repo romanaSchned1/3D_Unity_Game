@@ -17,7 +17,8 @@ public class CupController : MonoBehaviour
     {
         // Beispiel für zufälliges Vertauschen der Becher (einfacher Swap)
         int swapIndex = Random.Range(0, positions.Length);
-        Vector3 tempPosition = positions[0].position;
+        Debug.Log(positions[0]);
+        Vector2 tempPosition = positions[0].position;
         positions[0].position = positions[swapIndex].position;
         positions[swapIndex].position = tempPosition;
 
