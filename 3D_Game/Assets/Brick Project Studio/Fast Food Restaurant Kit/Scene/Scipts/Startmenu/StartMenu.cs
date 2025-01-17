@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
         //SceneManager.LoadScene(1);
 
         // Event-Listener hinzufügen
-        startButton.onClick.AddListener(OnStartButtonClickedCart);
+       // startButton.onClick.AddListener(OnStartButtonClickedCart);
     }
 
     public void OnStartButtonClickedLevel()
